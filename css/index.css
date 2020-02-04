@@ -1,0 +1,283 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Comfortaa', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Comfortaa', sans-serif;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+header {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.09)), #121212;
+  height: 10vh;
+}
+header .header-container {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), #121212;
+  height: 3vh;
+  display: flex;
+  justify-content: space-between;
+}
+header .header-container .header-logo {
+  width: 30%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .header-container .header-logo h1 {
+  color: white;
+  font-size: 5rem;
+  padding-top: 2rem;
+}
+header .header-container .navbar {
+  width: 15%;
+}
+header .header-container .navbar ul {
+  display: flex;
+  height: 13vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .header-container ul li a {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  padding-top: 3rem;
+}
+body {
+  background-color: black;
+}
+.top-page {
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.top-page div {
+  width: 40%;
+  padding-top: 10rem;
+}
+.top-page div h1 {
+  font-family: Comfortaa, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 54px;
+  padding-top: 1rem;
+  color: rgba(255, 255, 255, 0.87);
+}
+.top-page div p {
+  font-size: 24px;
+  line-height: 27px;
+  font-family: 'Comfortaa', cursive;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.6);
+  padding-right: 170px;
+}
+.top-page div .buttons {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.top-page div .buttons button {
+  width: 45%;
+  color: white;
+  padding: 1rem 5rem;
+  border-radius: 18px;
+}
+.top-page div .buttons .signUp {
+  background-color: #39869D;
+}
+.top-page div .buttons .signUp a {
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+.top-page div .buttons .signIn {
+  background-color: black;
+  border-color: #39869D;
+}
+.top-page div .buttons .signIn a {
+  color: #39869D;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+.top-page div img {
+  width: 80%;
+}
+.bottom-page {
+  width: 80%;
+  height: 60vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-page div {
+  width: 33%;
+  height: 60vh;
+  padding-top: 8rem;
+}
+.bottom-page div img {
+  width: 80%;
+  height: 50%;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
+}
+.bottom-page div h3 {
+  font-size: 18px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-top: 2rem;
+}
+@font-face {
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/comfortaa/v27/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4WjMDrMfJQ.ttf) format('truetype');
+}
